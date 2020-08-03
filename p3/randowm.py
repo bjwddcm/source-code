@@ -6,7 +6,7 @@ guess = int(temp)
 times = 1
 
 while (guess != secret) and (times < 3):
-    if guess > secret:
+    if guess > secret: 
         print('lower')
     else:
         print('lower')
